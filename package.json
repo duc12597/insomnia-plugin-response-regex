@@ -1,0 +1,21 @@
+{
+  "name": "insomnia-plugin-response-regex",
+  "description": "Extracts regex from response body or header",
+  "version": "1.0.0",
+  "author": "duc12597",
+  "main": "plugin.js",
+  "insomnia": {
+    "name": "insomnia-plugin-response-regex",
+    "description": "Extracts regex from response body or header"
+  },
+  "repository": "https://github.com/duc12597/insomnia-plugin-response-regex",
+  "dependencies": {
+    "iconv-lite": "^0.5.1",
+    "insomnia-xpath": "^2.1.4",
+    "jsonpath": "^1.0.2"
+  },
+  "keywords": [
+    "insomnia",
+    "regex"
+  ]
+}
