@@ -140,7 +140,7 @@ module.exports.templateTags = [
       const sanitizedFilter = filter.trim();
 
       if (field === 'header') {
-        return matchHeader(response.headers, sanitizedFilter);
+        return matchHeader(response.headers, sanitizedFilter).match(regex);
       } else if (field === 'body') {
         const bodyBuffer = context.util.models.response.getBodyBuffer(response, '');
         let match = response.contentType.match(/charset=([\w-]+)/);
